@@ -1,26 +1,20 @@
 {
-	"name": "Bingo",
-	"version": "0.1",
-	"description": "Add Google search button to Bing.",
-	"manifest_version": 2,
-	"icons": 
-	{ 
-		"16": "icon16.png",
-		"48": "icon48.png",
-		"128": "icon128.png" 
-	},
-	"background": 
-	{
-		"scripts": ["background.js"]
-	},
-	"content_scripts": [
-		{
-		  "js": ["bingo.js"],
-		  "matches": ["*://*.bing.com/*"],
-		  "run_at": "document_end"
-		}
-	],
-	"permissions": [
-		"tabs"
-    ]
+  "name": "BingEnhancer",
+  "version": "0.0.1",
+  "description": "Edge and Firefox extension that adds additional buttons to Bing.",
+  "manifest_version": 3,
+  "icons": {
+    "16": "./images/icon16.png",
+    "48": "./images/icon48.png",
+    "128": "./images/icon128.png"
+  },
+  "background.service_worker": "./js/sw.js",
+  "content_scripts": [
+    {
+      "js": ["./js/bingEnhancer.js"],
+      "matches": ["*://*.bing.com/*"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["tabs"]
 }
