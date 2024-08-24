@@ -1,6 +1,6 @@
 {
   "name": "BingEnhancer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Edge and Firefox extension that adds additional buttons to Bing.",
   "manifest_version": 3,
   "icons": {
@@ -16,5 +16,11 @@
       "run_at": "document_end"
     }
   ],
-  "permissions": ["tabs"]
+  "permissions": ["tabs"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{481F603C-4B39-4349-B091-35CD0C05ED1A}",
+      "strict_min_version": "109.0"
+    }
+  }
 }
