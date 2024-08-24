@@ -23,10 +23,10 @@ function update() {
   mojeek.setAttribute("data-menuurl", "");
 
   // creating the link elements
-  google.innerHTML = `<a target id="google">Google</a>`;
-  brave.innerHTML = `<a target id="brave">Brave</a>`;
-  mojeek.innerHTML = `<a target id="mojeek">Mojeek</a>`;
-  searXNG.innerHTML = `<a target id="searXNG">searXNG</a>`;
+  google.innerHTML = `<a target="_blank" id="google">Google</a>`;
+  brave.innerHTML = `<a target="_blank" id="brave">Brave</a>`;
+  mojeek.innerHTML = `<a target="_blank" id="mojeek">Mojeek</a>`;
+  searXNG.innerHTML = `<a target="_blank" id="searXNG">searXNG</a>`;
 
   function updateURL() {
     const searchString = encodeURIComponent(input.value);
