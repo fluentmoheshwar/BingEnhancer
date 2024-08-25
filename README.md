@@ -9,6 +9,8 @@ Edge and Firefox extension that adds additional buttons to Bing.
 [![Get it from Microsoft](./edge-get-the-addon.png)](https://microsoftedge.microsoft.com/addons/detail/cmocahjgbjaibghdghpbmmnibhfpmogn)
 [![Get it from Mozilla](./firefox-get-the-addon.png)](https://addons.mozilla.org/en-US/firefox/addon/bingenhancer/)
 
+If you're using Google Chrome then follow this tutorial: <https://youtu.be/rO6Nhwu8uMo>
+
 ## FAQs
 
 ### Why is Ecosia, DuckDuckGo and Startpage isn't an option?
