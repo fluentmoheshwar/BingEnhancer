@@ -1,6 +1,6 @@
 # Bing Enhancer
 
-Edge and Firefox extension that adds additional buttons to Bing.
+Do you want to keep Bing as your default search engine but sometimes you need other's? This open source extension adds buttons to quickly search using other search engines such as Google, Brave, Mojeek and SearXNG.
 
 ![Screenshot of Bing Enhancer](./screenshot.png)
 
