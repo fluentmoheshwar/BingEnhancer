@@ -5,6 +5,7 @@ function update() {
   const brave = document.createElement("li");
   const mojeek = document.createElement("li");
   const searXNG = document.createElement("li");
+  const wolframAlpha = document.createElement("li");
   const input = document.getElementById("sb_form_q");
 
   // creating the link elements
@@ -12,6 +13,7 @@ function update() {
   brave.innerHTML = `<a target="_blank" id="brave">Brave</a>`;
   mojeek.innerHTML = `<a target="_blank" id="mojeek">Mojeek</a>`;
   searXNG.innerHTML = `<a target="_blank" id="searXNG">searXNG</a>`;
+  wolframAlpha.innerHTML = `<a target="_blank" id="wolframAlpha">Wolfram Alpha</a>`;
 
   function updateURL() {
     const searchString = encodeURIComponent(input.value);
@@ -27,6 +29,9 @@ function update() {
     document.getElementById(
       "searXNG"
     ).href = `https://searxng.world/search?q=${searchString}&language=auto&safesearch=2&categories=general`;
+    document.getElementById(
+      "wolframAlpha"
+    ).href = `https://www.wolframalpha.com/input?i=${searchString}`;
   }
 
   if (input && input.value) {
@@ -34,6 +39,7 @@ function update() {
     ul.appendChild(brave);
     ul.appendChild(mojeek);
     ul.appendChild(searXNG);
+    ul.appendChild(wolframAlpha);
     input.onkeyup = updateURL;
     input.onblur = updateURL;
     updateURL();
