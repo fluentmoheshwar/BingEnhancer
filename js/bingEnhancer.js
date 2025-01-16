@@ -6,6 +6,7 @@ function update() {
   const mojeek = document.createElement("li");
   const searXNG = document.createElement("li");
   const wolframAlpha = document.createElement("li");
+  const perplexity = document.createElement("li");
   const input = document.getElementById("sb_form_q");
 
   // creating the link elements
@@ -14,6 +15,7 @@ function update() {
   mojeek.innerHTML = `<a target="_blank" id="mojeek">Mojeek</a>`;
   searXNG.innerHTML = `<a target="_blank" id="searXNG">searXNG</a>`;
   wolframAlpha.innerHTML = `<a target="_blank" id="wolframAlpha">Wolfram Alpha</a>`;
+  perplexity.innerHTML = `<a target="_blank" id="perplexity">Perplexity</a>`;
 
   function updateURL() {
     const searchString = encodeURIComponent(input.value);
@@ -32,6 +34,9 @@ function update() {
     document.getElementById(
       "wolframAlpha"
     ).href = `https://www.wolframalpha.com/input?i=${searchString}`;
+    document.getElementById(
+      "perplexity"
+    ).href = `https://www.perplexity.ai/search/new?q=${searchString}`;
   }
 
   if (input && input.value) {
@@ -40,6 +45,7 @@ function update() {
     ul.appendChild(mojeek);
     ul.appendChild(searXNG);
     ul.appendChild(wolframAlpha);
+    ul.appendChild(perplexity);
     input.onkeyup = updateURL;
     input.onblur = updateURL;
     updateURL();
