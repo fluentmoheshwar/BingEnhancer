@@ -26,7 +26,7 @@ function update() {
     ).href = `https://www.mojeek.com/search?q=${searchString}`;
     document.getElementById(
       "searXNG"
-    ).href = `https://searx.namejeff.xyz/searx/search?q=${searchString}&language=all&safesearch=2&categories=general`;
+    ).href = `https://searxng.world/search?q=${searchString}&language=auto&safesearch=2&categories=general`;
   }
 
   if (input && input.value) {
