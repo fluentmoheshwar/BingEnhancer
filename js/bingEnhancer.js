@@ -1,13 +1,3 @@
-/*
-Adapted from https://github.com/baturayp/Bingo
-Author: Baturay Palas baturay_at_outlook.fr
-*/
-
-/*
-Adapted from https://github.com/ajbdev/DuckDuckGoose
-Author: Baturay Palas baturay_at_outlook.fr
-*/
-
 function update() {
   // creating the elements
   const ul = document.getElementsByTagName("ul")[0];
@@ -16,11 +6,6 @@ function update() {
   const mojeek = document.createElement("li");
   const searXNG = document.createElement("li");
   const input = document.getElementById("sb_form_q");
-
-  // adding attributes to elements
-  google.setAttribute("data-menuurl", "");
-  brave.setAttribute("data-menuurl", "");
-  mojeek.setAttribute("data-menuurl", "");
 
   // creating the link elements
   google.innerHTML = `<a target="_blank" id="google">Google</a>`;
