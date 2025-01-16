@@ -15,7 +15,7 @@ If you're using Google Chrome then follow this tutorial: <https://youtu.be/rO6Nh
 
 ### Why is Ecosia, DuckDuckGo and Startpage isn't an option?
 
-[DuckDuckGo](https://duckduckgo.com) and [Ecosia](https://www.ecosia.org/) uses [Bing](https://bing.com)'s index.
+[DuckDuckGo](https://duckduckgo.com) and [Ecosia](https://www.ecosia.org/) uses [Bing](https://bing.com)'s index. meanwhile, [Startpage](https://startpage.com) uses [Google](https://google.com)'s index.
 
 ### Why is Mojeek and Brave is an option?
 
