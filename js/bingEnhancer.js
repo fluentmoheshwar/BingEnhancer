@@ -9,6 +9,8 @@ function update() {
   const perplexity = document.createElement("li");
   const claude = document.createElement("li");
   const chatgpt = document.createElement("li");
+  const baidu = document.createElement("li");
+  const yandex = document.createElement("li");
   const input = document.getElementById("sb_form_q");
 
   // creating the link elements
@@ -20,6 +22,8 @@ function update() {
   perplexity.innerHTML = `<a target="_blank" id="perplexity">Perplexity</a>`;
   claude.innerHTML = `<a target="_blank" id="claude">Claude</a>`;
   chatgpt.innerHTML = `<a target="_blank" id="chatgpt">ChatGPT</a>`;
+  baidu.innerHTML = `<a target="_blank" id="baidu">Baidu</a>`;
+  yandex.innerHTML = `<a target="_blank" id="yandex">Yandex</a>`;
 
   function updateURL() {
     const searchString = encodeURIComponent(input.value);
@@ -47,6 +51,12 @@ function update() {
     document.getElementById(
       "chatgpt"
     ).href = `https://chatgpt.com/?q=${searchString}`;
+    document.getElementById(
+      "baidu"
+    ).href = `https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=${searchString}&fenlei=256`;
+    document.getElementById(
+      "yandex"
+    ).href = `https://yandex.com/search/?text=${searchString}`;
   }
 
   if (input && input.value) {
@@ -58,6 +68,8 @@ function update() {
     ul.appendChild(perplexity);
     ul.appendChild(claude);
     ul.appendChild(chatgpt);
+    ul.appendChild(baidu);
+    ul.appendChild(yandex);
     input.onkeyup = updateURL;
     input.onblur = updateURL;
     updateURL();
