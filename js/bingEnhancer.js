@@ -7,6 +7,8 @@ function update() {
   const searXNG = document.createElement("li");
   const wolframAlpha = document.createElement("li");
   const perplexity = document.createElement("li");
+  const claude = document.createElement("li");
+  const chatgpt = document.createElement("li");
   const input = document.getElementById("sb_form_q");
 
   // creating the link elements
@@ -16,6 +18,8 @@ function update() {
   searXNG.innerHTML = `<a target="_blank" id="searXNG">searXNG</a>`;
   wolframAlpha.innerHTML = `<a target="_blank" id="wolframAlpha">Wolfram Alpha</a>`;
   perplexity.innerHTML = `<a target="_blank" id="perplexity">Perplexity</a>`;
+  claude.innerHTML = `<a target="_blank" id="claude">Claude</a>`;
+  chatgpt.innerHTML = `<a target="_blank" id="chatgpt">ChatGPT</a>`;
 
   function updateURL() {
     const searchString = encodeURIComponent(input.value);
@@ -37,6 +41,12 @@ function update() {
     document.getElementById(
       "perplexity"
     ).href = `https://www.perplexity.ai/search/new?q=${searchString}`;
+    document.getElementById(
+      "claude"
+    ).href = `https://claude.ai/new?q=${searchString}`;
+    document.getElementById(
+      "chatgpt"
+    ).href = `https://chatgpt.com/?q=${searchString}`;
   }
 
   if (input && input.value) {
@@ -46,6 +56,8 @@ function update() {
     ul.appendChild(searXNG);
     ul.appendChild(wolframAlpha);
     ul.appendChild(perplexity);
+    ul.appendChild(claude);
+    ul.appendChild(chatgpt);
     input.onkeyup = updateURL;
     input.onblur = updateURL;
     updateURL();
