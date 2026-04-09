@@ -43,3 +43,10 @@ All DuckDuckGo bangs are supported.
 ### Why is SearXNG is an option?
 
 [SearXNG](https://github.com/searxng/searxng) is a popular metasearch engine.
+
+## Special Thanks
+
+This project was inspired by these awesome projects:
+
+- [Bingo](https://github.com/baturayp/Bingo)
+- [unduck](https://github.com/t3-content/unduck)
