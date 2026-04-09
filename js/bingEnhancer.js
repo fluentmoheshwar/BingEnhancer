@@ -103,7 +103,7 @@ const SEARCH_BUTTONS = [
   {
     id: "searXNG",
     name: "searXNG",
-    base: "https://searxng.world/search?q=",
+    base: "https://searx.tiekoetter.com/search?q=",
     params: "&language=auto&safesearch=2&categories=general",
   },
   {
