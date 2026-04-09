@@ -60,7 +60,7 @@ const ICONS = {
   wolframAlpha:
     '<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 48 48" fill="#000000"><path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="m24 3.5l6.15 12.458l13.751 1.997l-9.945 9.704L36.3 41.357L24 34.891l-12.3 6.466l2.355-13.698l-9.956-9.704l13.751-1.997L24 3.5z"/><path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="m24 44.5l6.15-12.458l13.751-1.997l-9.945-9.704L36.3 6.643L24 13.109L11.7 6.643l2.355 13.698l-9.956 9.704l13.751 1.997L24 44.5z"/></svg>',
   perplexity:
-    '<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Perplexity</title><path d="M19.785 0v7.272H22.5V17.62h-2.935V24l-7.037-6.194v6.145h-1.091v-6.152L4.392 24v-6.465H1.5V7.188h2.884V0l7.053 6.494V.19h1.09v6.49L19.786 0zm-7.257 9.044v7.319l5.946 5.234V14.44l-5.946-5.397zm-1.099-.08l-5.946 5.398v7.235l5.946-5.234V8.965zm8.136 7.58h1.844V8.349H13.46l6.105 5.54v2.655zm-8.982-8.28H2.59v8.195h1.8v-2.576l6.192-5.62zM5.475 2.476v4.71h5.115l-5.115-4.71zm13.219 0l-5.115 4.71h5.115v-4.71z"></path></svg>>',
+    '<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.785 0v7.272H22.5V17.62h-2.935V24l-7.037-6.194v6.145h-1.091v-6.152L4.392 24v-6.465H1.5V7.188h2.884V0l7.053 6.494V.19h1.09v6.49L19.786 0zm-7.257 9.044v7.319l5.946 5.234V14.44l-5.946-5.397zm-1.099-.08l-5.946 5.398v7.235l5.946-5.234V8.965zm8.136 7.58h1.844V8.349H13.46l6.105 5.54v2.655zm-8.982-8.28H2.59v8.195h1.8v-2.576l6.192-5.62zM5.475 2.476v4.71h5.115l-5.115-4.71zm13.219 0l-5.115 4.71h5.115v-4.71z"></path></svg>',
   claude:
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M164.4 404.5L265.1 348L266.8 343.1L265.1 340.4L260.2 340.4L243.4 339.4L185.9 337.8L136 335.7L87.7 333.1L75.5 330.5L64.1 315.5L65.3 308L75.5 301.1L90.2 302.4C109.1 303.7 136.1 305.5 171.2 308L206.4 310.1L258.6 315.5L266.9 315.5L268.1 312.1L265.3 310L263.1 307.9L212.8 273.8L158.4 237.8L129.9 217.1L114.5 206.6L106.7 196.8L103.3 175.3L117.3 159.9L136.1 161.2L140.9 162.5L159.9 177.2L200.6 208.7L253.7 247.8L261.5 254.3L264.6 252.1L265 250.5L261.5 244.7L232.6 192.5L201.8 139.4L188.1 117.4L184.5 104.2C183.2 98.8 182.3 94.2 182.3 88.7L198.2 67.1L207 64.3L228.2 67.1L237.1 74.9L250.3 105.1L271.7 152.6L304.9 217.2L314.6 236.4L319.8 254.2L321.7 259.6L325.1 259.6L325.1 256.5L327.8 220.1L332.8 175.4L337.7 117.9L339.4 101.7L347.4 82.3L363.3 71.8L375.7 77.7L385.9 92.4L384.5 101.9L378.4 141.4L366.5 203.3L358.7 244.8L363.2 244.8L368.4 239.6L389.4 211.8L424.6 167.7L440.1 150.2L458.2 130.9L469.8 121.7L491.8 121.7L508 145.8L500.7 170.7L478 199.4L459.2 223.8L432.2 260.1L415.4 289.1L417 291.4L421 291L481.9 278L514.8 272.1L554.1 265.4L571.9 273.7L573.8 282.1L566.8 299.3L524.8 309.7L475.6 319.5L402.3 336.8L401.4 337.5L402.4 338.8L435.4 341.9L449.5 342.7L484.1 342.7L548.5 347.5L565.3 358.6L575.4 372.2L573.7 382.6L547.8 395.8C532.3 392.1 493.4 382.9 431.2 368.1L403.2 361.1L399.3 361.1L399.3 363.4L422.6 386.2L465.3 424.8L518.8 474.6L521.5 486.9L514.6 496.6L507.3 495.6L460.3 460.2L442.2 444.3L401.1 409.7L398.4 409.7L398.4 413.3L407.9 427.2L457.9 502.4L460.5 525.4L456.9 532.9L443.9 537.4L429.7 534.8L400.4 493.7L370.2 447.4L345.8 405.9L342.8 407.6L328.4 562.4L321.7 570.3L306.2 576.2L293.2 566.4L286.3 550.5L293.2 519L301.5 477.9L308.2 445.2L314.3 404.6L317.9 391.1L317.7 390.2L314.7 390.6L284.1 432.6L237.6 495.5L200.8 534.9L192 538.4L176.7 530.5L178.1 516.4L186.6 503.8L237.5 439L268.2 398.8L288 375.6L287.9 372.2L286.7 372.2L151.4 460L127.3 463.1L116.9 453.4L118.2 437.5L123.1 432.3L163.8 404.3L163.7 404.4L163.7 404.5z"/></svg>',
   chatgpt:
@@ -77,7 +77,7 @@ const ICONS = {
 const SITE_CONFIG = {
   bing: {
     inputId: "sb_form_q",
-    buttonContainerSelector: "ul",
+    buttonContainerSelector: ".b_scopebar ul, nav ul, ul[role='navigation']",
     buttonClass: "",
   },
   ecosia: {
@@ -128,21 +128,169 @@ const SEARCH_BUTTONS = [
 ];
 
 /**
- * Create search button elements
+ * Create dropdown menu for search engines
  */
-function createSearchButtons(buttonContainer, siteType) {
+function createSearchDropdown(buttonContainer, siteType) {
   if (!buttonContainer) return false;
 
-  SEARCH_BUTTONS.forEach((button) => {
-    // Check if button already exists
-    if (document.getElementById(button.id)) return;
+  // Check if dropdown already exists
+  if (document.getElementById("bingenhancer-dropdown")) return false;
 
-    const li = document.createElement("li");
-    li.className = "search-navigation__item";
-    const link = document.createElement("a");
-    link.id = button.id;
-    link.target = "_blank";
-    link.href = "#";
+  // Force parent container to allow overflow (important for Bing)
+  buttonContainer.style.overflow = "visible";
+  buttonContainer.style.position = "relative";
+
+  // Detect dark mode
+  const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  // Define colors based on site and theme
+  let colors = {};
+  if (siteType === "bing") {
+    colors = isDarkMode
+      ? {
+          btnText: "#f2f2f2",
+          btnHover: "rgba(255, 255, 255, 0.7)",
+          dropBg: "#1f1f1f",
+          dropBorder: "#404040",
+          itemText: "#f2f2f2",
+          itemHover: "#2d2d2d",
+          itemBorder: "#333333",
+          iconColor: "#f2f2f2",
+        }
+      : {
+          btnText: "inherit",
+          btnHover: "rgba(0, 0, 0, 0.7)",
+          dropBg: "#ffffff",
+          dropBorder: "#e8e8e8",
+          itemText: "#333",
+          itemHover: "#f5f5f5",
+          itemBorder: "#f0f0f0",
+          iconColor: "#333",
+        };
+  } else {
+    // ecosia
+    colors = isDarkMode
+      ? {
+          btnText: "#f2f2f2",
+          btnHoverBg: "#2d3a2d",
+          btnHoverText: "#4ade80",
+          dropBg: "#1f1f1f",
+          dropBorder: "#404040",
+          itemText: "#f2f2f2",
+          itemHover: "#2d3a2d",
+          itemBorder: "#333333",
+          accentColor: "#4ade80",
+          iconColor: "#f2f2f2",
+        }
+      : {
+          btnText: "inherit",
+          btnHoverBg: "#f0f0f0",
+          btnHoverText: "#30a86f",
+          dropBg: "#ffffff",
+          dropBorder: "#e8e8e8",
+          itemText: "#333",
+          itemHover: "#f5f5f5",
+          itemBorder: "#f0f0f0",
+          accentColor: "#30a86f",
+          iconColor: "#333",
+        };
+  }
+
+  const li = document.createElement("li");
+  li.className = "search-navigation__item";
+  li.id = "bingenhancer-dropdown-item";
+  li.style.position = "relative";
+  li.style.display = "inline-block";
+  li.style.overflow = "visible";
+
+  // Main toggle button with separate arrow
+  const toggleBtn = document.createElement("a");
+  toggleBtn.id = "bingenhancer-dropdown-toggle";
+  toggleBtn.style.display = "inline-flex";
+  toggleBtn.style.alignItems = "center";
+  toggleBtn.style.whiteSpace = "nowrap";
+  toggleBtn.style.cursor = "pointer";
+  toggleBtn.style.userSelect = "none";
+  toggleBtn.style.gap = "4px";
+
+  // Create text and arrow separately
+  const textSpan = document.createElement("span");
+  textSpan.textContent = "Search with";
+
+  const arrowSpan = document.createElement("span");
+  arrowSpan.id = "bingenhancer-arrow";
+  arrowSpan.textContent = "▼";
+  arrowSpan.style.display = "inline-block";
+  arrowSpan.style.transition = "transform 0.2s ease";
+  arrowSpan.style.fontSize = "10px";
+
+  if (siteType === "bing") {
+    toggleBtn.style.color = colors.btnText;
+    toggleBtn.style.transition = "opacity 0.2s ease";
+    toggleBtn.addEventListener("mouseenter", () => {
+      toggleBtn.style.opacity = "0.7";
+    });
+    toggleBtn.addEventListener("mouseleave", () => {
+      toggleBtn.style.opacity = "1";
+    });
+  } else if (siteType === "ecosia") {
+    toggleBtn.style.fontSize = "14px";
+    toggleBtn.style.padding = "8px 12px";
+    toggleBtn.style.borderRadius = "4px";
+    toggleBtn.style.transition = "all 0.2s ease";
+    toggleBtn.style.color = colors.btnText;
+    toggleBtn.addEventListener("mouseenter", () => {
+      toggleBtn.style.backgroundColor = colors.btnHoverBg;
+      toggleBtn.style.color = colors.btnHoverText;
+    });
+    toggleBtn.addEventListener("mouseleave", () => {
+      toggleBtn.style.backgroundColor = "transparent";
+      toggleBtn.style.color = colors.btnText;
+    });
+  }
+
+  toggleBtn.appendChild(textSpan);
+  toggleBtn.appendChild(arrowSpan);
+
+  // Dropdown menu
+  const dropdown = document.createElement("div");
+  dropdown.id = "bingenhancer-dropdown";
+  dropdown.style.display = "none";
+  dropdown.style.position = "absolute";
+  dropdown.style.top = "calc(100% + 4px)";
+  dropdown.style.left = "0";
+  dropdown.style.width = "220px";
+  dropdown.style.zIndex = "10000";
+  dropdown.style.backgroundColor = colors.dropBg;
+  dropdown.style.borderRadius = "4px";
+  dropdown.style.boxShadow = isDarkMode
+    ? "0 2px 10px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.3)"
+    : "0 2px 10px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.08)";
+  dropdown.style.border = `1px solid ${colors.dropBorder}`;
+
+  // Create dropdown items
+  SEARCH_BUTTONS.forEach((button, index) => {
+    const item = document.createElement("a");
+    item.href = "#";
+    item.target = "_blank";
+    item.rel = "noopener noreferrer";
+    item.className = "bingenhancer-dropdown-item";
+    item.id = `dropdown-${button.id}`;
+    item.style.display = "flex";
+    item.style.alignItems = "center";
+    item.style.padding = "12px 12px";
+    item.style.textDecoration = "none";
+    item.style.fontSize = "13px";
+    item.style.cursor = "pointer";
+    item.style.transition = "background-color 0.15s ease";
+    item.style.color = colors.itemText;
+    item.style.whiteSpace = "nowrap";
+    item.style.minWidth = "0";
+
+    // Add border between items (not after the last one)
+    if (index < SEARCH_BUTTONS.length - 1) {
+      item.style.borderBottom = `1px solid ${colors.itemBorder}`;
+    }
 
     // Create icon element
     const iconSpan = document.createElement("span");
@@ -153,84 +301,90 @@ function createSearchButtons(buttonContainer, siteType) {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      margin-right: 6px;
+      margin-right: 10px;
       flex-shrink: 0;
-      color: currentColor;
     `;
 
-    // Ensure SVG fits the container and inherits text color
+    // Set SVG color
     const svg = iconSpan.querySelector("svg");
     if (svg) {
       svg.style.width = "100%";
       svg.style.height = "100%";
-      svg.style.color = "currentColor";
-      svg.setAttribute("fill", "currentColor");
-      // Make sure all paths inherit the color
+      svg.style.color = colors.iconColor;
+      svg.setAttribute("fill", colors.iconColor);
       svg.querySelectorAll("path").forEach((path) => {
-        path.setAttribute("fill", "currentColor");
+        path.setAttribute("fill", colors.iconColor);
       });
     }
 
-    // Create text element
-    const textSpan = document.createElement("span");
-    textSpan.textContent = button.name;
+    item.appendChild(iconSpan);
 
-    link.appendChild(iconSpan);
-    link.appendChild(textSpan);
+    // Create text span with overflow handling
+    const itemTextSpan = document.createElement("span");
+    itemTextSpan.textContent = button.name;
+    itemTextSpan.style.overflow = "hidden";
+    itemTextSpan.style.textOverflow = "ellipsis";
+    itemTextSpan.style.flexShrink = "1";
+    item.appendChild(itemTextSpan);
 
-    // Apply styling only on Ecosia
-    if (siteType === "ecosia") {
-      link.style.cssText = `
-        display: inline-flex;
-        align-items: center;
-        padding: 8px 12px;
-        text-decoration: none;
-        font-size: 14px;
-        border-radius: 4px;
-        transition: all 0.2s ease;
-        white-space: nowrap;
-      `;
+    // Add hover effect for dropdown items
+    item.addEventListener("mouseenter", () => {
+      item.style.backgroundColor = colors.itemHover;
+      if (siteType === "ecosia") {
+        iconSpan.querySelectorAll("svg *").forEach((el) => {
+          el.style.color = colors.accentColor;
+          el.setAttribute("fill", colors.accentColor);
+        });
+      }
+    });
 
-      // Add hover effect
-      link.addEventListener("mouseenter", () => {
-        link.style.backgroundColor = "#f0f0f0";
-        link.style.color = "#30a86f";
+    item.addEventListener("mouseleave", () => {
+      item.style.backgroundColor = "transparent";
+      iconSpan.querySelectorAll("svg *").forEach((el) => {
+        el.style.color = colors.iconColor;
+        el.setAttribute("fill", colors.iconColor);
       });
+    });
 
-      link.addEventListener("mouseleave", () => {
-        link.style.backgroundColor = "transparent";
-      });
-    } else if (siteType === "bing") {
-      link.style.cssText = `
-        display: inline-flex;
-        align-items: center;
-        padding: 6px 10px;
-        text-decoration: none;
-        font-size: 13px;
-        white-space: nowrap;
-        color: inherit;
-        transition: opacity 0.2s ease;
-      `;
+    // Click handler - close dropdown and let link navigation happen naturally
+    item.addEventListener("click", (e) => {
+      e.stopPropagation();
+      // Close dropdown
+      dropdown.style.display = "none";
+      arrowSpan.style.transform = "rotate(0deg)";
+    });
 
-      // Add subtle hover effect for Bing
-      link.addEventListener("mouseenter", () => {
-        link.style.opacity = "0.7";
-      });
-
-      link.addEventListener("mouseleave", () => {
-        link.style.opacity = "1";
-      });
-    }
-
-    li.appendChild(link);
-    buttonContainer.appendChild(li);
+    dropdown.appendChild(item);
   });
+
+  // Toggle handler - prevent default link behavior
+  toggleBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const isOpen = dropdown.style.display !== "none";
+    dropdown.style.display = isOpen ? "none" : "block";
+    arrowSpan.style.transform = isOpen ? "rotate(0deg)" : "rotate(180deg)";
+  });
+
+  // Close dropdown when clicking outside
+  const closeDropdown = (e) => {
+    if (!li.contains(e.target)) {
+      dropdown.style.display = "none";
+      arrowSpan.style.transform = "rotate(0deg)";
+    }
+  };
+
+  document.addEventListener("click", closeDropdown);
+
+  li.appendChild(toggleBtn);
+  li.appendChild(dropdown);
+  buttonContainer.appendChild(li);
 
   return true;
 }
 
 /**
- * Update search button URLs
+ * Update search button URLs (for dropdown item data)
  */
 function updateSearchButtonURLs(searchString) {
   if (!searchString) return;
@@ -238,10 +392,10 @@ function updateSearchButtonURLs(searchString) {
   const encodedQuery = encodeURIComponent(searchString);
 
   SEARCH_BUTTONS.forEach((button) => {
-    const linkEl = document.getElementById(button.id);
-    if (linkEl) {
+    const dropdownItem = document.getElementById(`dropdown-${button.id}`);
+    if (dropdownItem) {
       const params = button.params || "";
-      linkEl.href = `${button.base}${encodedQuery}${params}`;
+      dropdownItem.href = `${button.base}${encodedQuery}${params}`;
     }
   });
 }
@@ -288,11 +442,11 @@ function updateBing() {
 
   console.log("[BingEnhancer] Bing elements found, initializing");
 
-  // Create buttons on first run only
+  // Create dropdown on first run only
   if (!INIT_STATE.bingInitialized) {
-    createSearchButtons(buttonContainer, "bing");
+    createSearchDropdown(buttonContainer, "bing");
     INIT_STATE.bingInitialized = true;
-    console.log("[BingEnhancer] Bing buttons created");
+    console.log("[BingEnhancer] Bing dropdown created");
   }
 
   function updateURL() {
@@ -303,7 +457,7 @@ function updateBing() {
       return;
     }
 
-    // Update button URLs
+    // Update dropdown item URLs
     updateSearchButtonURLs(searchString);
   }
 
@@ -358,11 +512,11 @@ function updateEcosia() {
     return;
   }
 
-  // Create buttons on first run only
+  // Create dropdown on first run only
   if (!INIT_STATE.ecosiaInitialized) {
-    createSearchButtons(buttonContainer, "ecosia");
+    createSearchDropdown(buttonContainer, "ecosia");
     INIT_STATE.ecosiaInitialized = true;
-    console.log("[BingEnhancer] Ecosia buttons created");
+    console.log("[BingEnhancer] Ecosia dropdown created");
   }
 
   function updateURL() {
@@ -373,7 +527,7 @@ function updateEcosia() {
       return;
     }
 
-    // Update button URLs
+    // Update dropdown item URLs
     updateSearchButtonURLs(searchString);
   }
 
