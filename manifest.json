@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "js": ["./js/bangs.js", "./js/bangParser.js", "./js/bingEnhancer.js"],
-      "matches": ["*://*.bing.com/*"],
+      "matches": ["*://*.bing.com/*", "*://*.ecosia.org/*"],
       "run_at": "document_end"
     }
   ],
