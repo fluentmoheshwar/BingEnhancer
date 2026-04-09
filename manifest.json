@@ -11,7 +11,7 @@
   "background.service_worker": "./js/sw.js",
   "content_scripts": [
     {
-      "js": ["./js/bingEnhancer.js"],
+      "js": ["./js/bangs.js", "./js/bangParser.js", "./js/bingEnhancer.js"],
       "matches": ["*://*.bing.com/*"],
       "run_at": "document_end"
     }

@@ -1,6 +1,6 @@
 # BingEnhancer
 
-Do you want to keep Bing as your default search engine but sometimes you need other's? This open source extension adds buttons to quickly search using other search engines such as Google, Brave, Mojeek and SearXNG.
+Do you want to keep Bing as your default search engine but sometimes you need other's? This open source extension adds buttons and bangs to quickly search using other search engines such as Google, Brave, Mojeek and SearXNG.
 
 ![Screenshot of Bing Enhancer](./screenshot.png)
 
@@ -10,6 +10,25 @@ Do you want to keep Bing as your default search engine but sometimes you need ot
 [![Get it from Mozilla](./firefox-get-the-addon.png)](https://addons.mozilla.org/en-US/firefox/addon/bingenhancer/)
 
 If you're using Google Chrome then follow this tutorial: <https://youtu.be/rO6Nhwu8uMo>
+
+## Bangs
+
+All DuckDuckGo bangs are supported.
+
+### Common Bangs
+
+| Bang | Website | Example |
+|------|---------|---------|
+| `!g` / `!google` | Google | `!g best python tutorials` |
+| `!gh` / `!github` | GitHub | `!gh userfriendly username` |
+| `!yt` / `!youtube` | YouTube | `!yt how to code` |
+| `!r` / `!reddit` | Reddit | `!r programming` |
+| `!w` / `!wiki` | Wikipedia | `!w artificial intelligence` |
+| `!a` / `!amazon` | Amazon | `!a mechanical keyboard` |
+| `!so` / `!stackoverflow` | Stack Overflow | `!so regex tutorial` |
+| `!npm` | NPM Registry | `!npm express` |
+| `!map` / `!maps` | Google Maps | `!maps coffee near me` |
+| `!i` / `!images` | Google Images | `!i cat memes` |
 
 ## FAQs
 

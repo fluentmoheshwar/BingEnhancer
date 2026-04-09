@@ -1,3 +1,12 @@
+/**
+ * Initialize the bang parser with available bangs
+ * BANGS is defined in bangs.js which is loaded before this script
+ */
+let bangParser = null;
+if (typeof window !== "undefined" && window.BANGS) {
+  bangParser = new BangParser(window.BANGS);
+}
+
 function update() {
   // creating the elements
   const ul = document.getElementsByTagName("ul")[0];
@@ -26,37 +35,50 @@ function update() {
   yandex.innerHTML = `<a target="_blank" id="yandex">Yandex</a>`;
 
   function updateURL() {
-    const searchString = encodeURIComponent(input.value);
-    document.getElementById(
-      "google"
-    ).href = `https://www.google.com/search?&q=${searchString}`;
-    document.getElementById(
-      "brave"
-    ).href = `https://search.brave.com/search?q=${searchString}`;
-    document.getElementById(
-      "mojeek"
-    ).href = `https://www.mojeek.com/search?q=${searchString}`;
-    document.getElementById(
-      "searXNG"
-    ).href = `https://searxng.world/search?q=${searchString}&language=auto&safesearch=2&categories=general`;
-    document.getElementById(
-      "wolframAlpha"
-    ).href = `https://www.wolframalpha.com/input?i=${searchString}`;
-    document.getElementById(
-      "perplexity"
-    ).href = `https://www.perplexity.ai/search/new?q=${searchString}`;
-    document.getElementById(
-      "claude"
-    ).href = `https://claude.ai/new?q=${searchString}`;
-    document.getElementById(
-      "chatgpt"
-    ).href = `https://chatgpt.com/?q=${searchString}`;
-    document.getElementById(
-      "baidu"
-    ).href = `https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=${searchString}&fenlei=256`;
-    document.getElementById(
-      "yandex"
-    ).href = `https://yandex.com/search/?text=${searchString}`;
+    const searchString = input.value.trim();
+
+    // Check for bangs (! or # followed by alphanumeric)
+    if (bangParser) {
+      const bangResult = bangParser.parse(searchString);
+
+      if (bangResult.bang && bangResult.url) {
+        // Valid bang found - redirect to the bang URL
+        // Open in a new tab if Shift is held, otherwise search normally
+        // For now, we'll just update the main search to use the bang
+        console.log(
+          `[BingEnhancer] Bang detected: ${bangResult.bang}`,
+          bangResult,
+        );
+
+        // Redirect to bang URL instead of showing suggestions
+        window.location.href = bangResult.url;
+        return;
+      }
+    }
+
+    // No bang detected, use the original search string for encoding
+    const encodedSearchString = encodeURIComponent(searchString);
+
+    document.getElementById("google").href =
+      `https://www.google.com/search?&q=${encodedSearchString}`;
+    document.getElementById("brave").href =
+      `https://search.brave.com/search?q=${encodedSearchString}`;
+    document.getElementById("mojeek").href =
+      `https://www.mojeek.com/search?q=${encodedSearchString}`;
+    document.getElementById("searXNG").href =
+      `https://searxng.world/search?q=${encodedSearchString}&language=auto&safesearch=2&categories=general`;
+    document.getElementById("wolframAlpha").href =
+      `https://www.wolframalpha.com/input?i=${encodedSearchString}`;
+    document.getElementById("perplexity").href =
+      `https://www.perplexity.ai/search/new?q=${encodedSearchString}`;
+    document.getElementById("claude").href =
+      `https://claude.ai/new?q=${encodedSearchString}`;
+    document.getElementById("chatgpt").href =
+      `https://chatgpt.com/?q=${encodedSearchString}`;
+    document.getElementById("baidu").href =
+      `https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=${encodedSearchString}&fenlei=256`;
+    document.getElementById("yandex").href =
+      `https://yandex.com/search/?text=${encodedSearchString}`;
   }
 
   if (input && input.value) {
